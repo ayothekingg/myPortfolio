@@ -1,0 +1,42 @@
+/** @format */
+
+.skill-container {
+  display: grid;
+  flex-direction: row;
+  width: 1200px;
+  height: 300px;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 50px;
+  padding-top: 0;
+}
+
+.skill-container > div {
+  background-color: rgb(48, 47, 47);
+  width: 290px;
+  height: 130px;
+}
+
+.font-lg {
+  font-size: 80px;
+  display: block;
+  color: #09c;
+}
+
+.skill-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h6 {
+  color: white;
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+img {
+  width: 50px;
+  width: 50px;
+}

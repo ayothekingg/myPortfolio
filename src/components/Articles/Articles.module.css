@@ -1,0 +1,10 @@
+/** @format */
+
+.articleError {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  font-size: 16px;
+  letter-spacing: normal;
+}

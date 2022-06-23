@@ -1,0 +1,105 @@
+/** @format */
+
+.header {
+  text-align: center;
+  font-size: 15px;
+
+  font-weight: 500;
+}
+
+.headerBar {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 120px 0px 0 0px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 45%;
+  height: auto;
+  width: 100%;
+  align-items: center;
+}
+
+.textBar {
+  width: 400px;
+  margin-left: 30px;
+}
+
+.skillContainer {
+  flex: 0 0 55%;
+}
+
+.skillBar {
+  display: grid;
+  gap: 5px;
+  height: auto;
+
+  grid-template-columns: auto auto auto;
+}
+
+.skillBar > div {
+  background-color: rgb(48, 48, 48);
+  width: 200px;
+  height: 130px;
+}
+
+.font-lg {
+  font-size: 80px;
+  display: block;
+  color: #09c;
+}
+
+.skillBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0px 1px 0 0px rgb(37, 36, 36);
+  width: 0.5rem;
+  margin-top: 5px;
+  border-radius: 30px;
+  color: rgb(189, 187, 187);
+}
+
+@media screen and (max-width: 700px) {
+  .skillBar {
+    grid-template-columns: auto auto;
+    width: 100%;
+  }
+
+  .textBar {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin: 150px px;
+    /* display: block; */
+  }
+
+  .skillBar > div {
+    width: 150px;
+    height: auto;
+  }
+
+  .textBar {
+    width: 100%;
+    min-width: 300px;
+    margin-left: 0;
+  }
+}

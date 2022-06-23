@@ -1,0 +1,36 @@
+/** @format */
+
+.contactBtn {
+  width: 110px;
+  height: 42px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(75, 67, 67);
+  border: 2px solid white;
+  color: white;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 5px;
+}
+
+.contactBtn:hover {
+  background-color: rgb(161, 158, 158);
+  color: black;
+  transition: 0.7s ease-in;
+}
+.downloadBtn {
+  width: 150px;
+  height: 42px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(75, 67, 67);
+  border: 2px solid #09c;
+  color: white;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.downloadBtn:hover {
+  transition: 0.7s ease-in;
+  background-color: rgb(2, 122, 161);
+}

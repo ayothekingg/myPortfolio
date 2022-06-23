@@ -1,0 +1,25 @@
+/** @format */
+
+.socialStyle {
+  display: flex;
+  justify-content: center;
+  float: none;
+  margin-top: 30px;
+}
+
+.fontSize {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 480px) {
+  .socialStyle {
+    margin: 0;
+    padding-bottom: 0;
+    padding: 0;
+    padding-top: 10px;
+  }
+
+  .fontSize {
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,94 @@
+/** @format */
+
+.ProjectContainer {
+  display: flex;
+  align-items: center;
+  margin: 100px 20px 30px 20px;
+  flex-direction: column;
+}
+
+.ProjectBox {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-top: 50px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0 0 rgb(46, 44, 44);
+}
+
+.ProjectBox:hover {
+  background-color: rgb(54, 54, 54);
+}
+
+.cardBox {
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.textBox {
+  flex: 1 0 60%;
+  width: 100%;
+}
+
+.imgBox {
+  width: 320px;
+  height: 180px;
+  border-radius: 3px;
+}
+
+.textHeader {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+.textBar {
+  border: 1px solid rgb(112, 112, 112);
+  margin-bottom: 2px;
+}
+
+.tools {
+  color: white;
+
+  border-radius: 2px;
+}
+
+.tools > span {
+  margin-right: 10px;
+  letter-spacing: 5px;
+  border-radius: 3px;
+  font-size: 13px;
+  box-shadow: 1px 1px 0 0 rgb(26, 25, 25);
+}
+
+.buttonBar {
+}
+
+.buttonBar > button {
+  color: white;
+  width: 8rem;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: inherit;
+  border: none;
+}
+
+.iconStyle {
+  font-size: 1.5rem;
+  color: rgb(221, 218, 218);
+  margin: 10px 20px 0 10px;
+}
+
+.bar {
+  display: inline;
+}
+
+@media screen and (max-width: 768px) {
+  .ProjectBox {
+    justify-content: center;
+  }
+}
