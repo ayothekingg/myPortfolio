@@ -18,12 +18,12 @@ const Skills = () => {
   };
 
   const textAnimate = {
-    visible: { x: 0, transition: { delay: 0.5 } },
+    visible: { x: 0, transition: { duration: 1 } },
     hidden: { x: "-100vw" },
   };
 
   const skillAnimate = {
-    visible: { x: 0, transition: { delay: 0.5 } },
+    visible: { x: 0, transition: { duration: 1 } },
     hidden: { x: "100vw" },
   };
 

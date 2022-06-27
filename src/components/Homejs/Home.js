@@ -5,7 +5,7 @@ import Button from "../Buttons/Button";
 import { motion } from "framer-motion";
 
 const container = {
-  visible: { x: 0, transition: { delay: 0.5 } },
+  visible: { x: 0, transition: { duration: 1 } },
   hidden: { x: "-100vw" },
 };
 
@@ -21,12 +21,12 @@ const Home = () => {
         <div>
           <img
             src={displayPicture}
-            alt="display-picture"
+            alt="display"
             className={styles.displayPicture}
           />
         </div>
         <div>
-          <p className={styles.job}>Frontend Developer</p>
+          <h4 className={styles.job}>Frontend Developer</h4>
           <h2>Hi, I'm Ayomide</h2>
           <h4 className={styles.textContainer}>
             I am a Frontend developer, i use web technologies to implement
