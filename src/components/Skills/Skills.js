@@ -10,15 +10,31 @@ import { FaReact } from "react-icons/fa";
 import { BiGitPullRequest } from "react-icons/bi";
 import { GrGraphQl } from "react-icons/gr";
 import { SiRedux } from "react-icons/si";
+import { motion } from "framer-motion";
 
 const Skills = () => {
   const fontSize = {
     fontSize: "1.5rem",
   };
 
+  const textAnimate = {
+    visible: { x: 0, transition: { delay: 0.5 } },
+    hidden: { x: "-100vw" },
+  };
+
+  const skillAnimate = {
+    visible: { x: 0, transition: { delay: 0.5 } },
+    hidden: { x: "100vw" },
+  };
+
   return (
     <div className={styles.container}>
-      <div className={styles.textContainer}>
+      <motion.div
+        className={styles.textContainer}
+        initial="hidden"
+        animate="visible"
+        variants={textAnimate}
+      >
         <h4 className={styles.header}>Get to know me more !</h4>
         <h4 className={styles.textBar}>
           Hi again ! I know I already said hi before, but this time is more
@@ -35,9 +51,14 @@ const Skills = () => {
         <div style={{ justifyContent: "center" }}>
           <Button />
         </div>
-      </div>
+      </motion.div>
 
-      <div className={styles.skillContainer}>
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={skillAnimate}
+        className={styles.skillContainer}
+      >
         <div className={styles.headerBar}>
           <h4 className={styles.header}>Core technologies</h4>
         </div>
@@ -87,7 +108,7 @@ const Skills = () => {
             <h6>Redux</h6>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

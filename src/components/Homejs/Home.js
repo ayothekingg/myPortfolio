@@ -2,11 +2,22 @@
 import styles from "./Home.module.css";
 import displayPicture from "./displayPicture.jpeg";
 import Button from "../Buttons/Button";
+import { motion } from "framer-motion";
+
+const container = {
+  visible: { x: 0, transition: { delay: 0.5 } },
+  hidden: { x: "-100vw" },
+};
 
 const Home = () => {
   return (
     <section>
-      <div className={styles.flexContainer}>
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={container}
+        className={styles.flexContainer}
+      >
         <div>
           <img
             src={displayPicture}
@@ -27,7 +38,7 @@ const Home = () => {
           </h4>
           <Button />
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };

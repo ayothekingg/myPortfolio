@@ -3,11 +3,22 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaTwitter } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { MdOutlineAlternateEmail } from "react-icons/md";
+import { motion } from "framer-motion";
 import styles from "./Socials.module.css";
+
+const socials = {
+  visible: {
+    y: 0,
+    transition: { type: "tween", delay: 1 },
+  },
+  hidden: {
+    y: "100vh",
+  },
+};
 
 const Socials = () => {
   return (
-    <div>
+    <motion.div initial="hidden" animate="visible" variants={socials}>
       <ul className={styles.socialStyle}>
         <li>
           <a href="https://github.com/ayothekingg" target="_blank">
@@ -36,7 +47,7 @@ const Socials = () => {
           </a>
         </li>
       </ul>
-    </div>
+    </motion.div>
   );
 };
 
