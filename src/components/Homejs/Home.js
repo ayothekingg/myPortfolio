@@ -26,7 +26,7 @@ const Home = () => {
           />
         </div>
         <div>
-          <h4 className={styles.job}>Frontend Developer</h4>
+          <h4 className={styles.job}>Frontend Engineer</h4>
           <h2>Hi, I'm Ayomide</h2>
           <h4 className={styles.textContainer}>
             I am a Frontend developer, i use web technologies to implement
