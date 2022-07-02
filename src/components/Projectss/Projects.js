@@ -34,9 +34,22 @@ const Projects = () => {
             <span>API</span>
           </div>
           <div className={styles.buttonBar}>
-            <BiCodeAlt className={styles.iconStyle} />
-
-            <GiSpiderWeb className={styles.iconStyle} />
+            <span className={styles.buttonLinkBar}>
+              <a href="https://screenville.netlify.app">
+                <button>
+                  <GiSpiderWeb className={styles.iconStyle} />
+                  Live
+                </button>
+              </a>
+            </span>
+            <span className={styles.buttonLinkBar}>
+              <a href="https://https://github.com/ayothekingg/Screenville">
+                <button>
+                  <BiCodeAlt className={styles.iconStyle} />
+                  Code
+                </button>
+              </a>
+            </span>
           </div>
         </div>
       </div>
@@ -60,9 +73,22 @@ const Projects = () => {
             <span>Javascript</span>
           </div>
           <div className={styles.buttonBar}>
-            <BiCodeAlt className={styles.iconStyle} />
-
-            <GiSpiderWeb className={styles.iconStyle} />
+            <span className={styles.buttonLinkBar}>
+              <a href="https://piggyclone.netlify.app">
+                <button>
+                  <GiSpiderWeb className={styles.iconStyle} />
+                  Live
+                </button>
+              </a>
+            </span>
+            <span className={styles.buttonLinkBar}>
+              <a href="https://https://github.com/ayothekingg/Piggyvest-Clone">
+                <button>
+                  <BiCodeAlt className={styles.iconStyle} />
+                  Code
+                </button>
+              </a>
+            </span>
           </div>
         </div>
       </div>
@@ -86,9 +112,22 @@ const Projects = () => {
             <span>Javascript</span>
           </div>
           <div className={styles.buttonBar}>
-            <BiCodeAlt className={styles.iconStyle} />
-
-            <GiSpiderWeb className={styles.iconStyle} />
+            <span className={styles.buttonLinkBar}>
+              <a href="https://kicksville.netlify.app">
+                <button>
+                  <GiSpiderWeb className={styles.iconStyle} />
+                  Live
+                </button>
+              </a>
+            </span>
+            <span className={styles.buttonLinkBar}>
+              <a href="https://https://github.com/ayothekingg/Kicksville">
+                <button>
+                  <BiCodeAlt className={styles.iconStyle} />
+                  Code
+                </button>
+              </a>
+            </span>
           </div>
         </div>
       </div>
@@ -113,9 +152,23 @@ const Projects = () => {
             <span>FRAMER MOTION</span>
           </div>
           <div className={styles.buttonBar}>
-            <BiCodeAlt className={styles.iconStyle} />
+            <span className={styles.buttonLinkBar}>
+              <a href="https://ayotheking.netlify.app">
+                <button>
+                  <GiSpiderWeb className={styles.iconStyle} />
+                  Live
+                </button>
+              </a>
+            </span>
 
-            <GiSpiderWeb className={styles.iconStyle} />
+            <span className={styles.buttonLinkBar}>
+              <a href="https://https://github.com/ayothekingg/Kicksville">
+                <button>
+                  <BiCodeAlt className={styles.iconStyle} />
+                  Code
+                </button>
+              </a>
+            </span>
           </div>
         </div>
       </div>
