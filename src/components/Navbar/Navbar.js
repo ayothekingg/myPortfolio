@@ -14,9 +14,9 @@ const Navbar = () => {
     <div className={styles.container}>
       <Link to="/">
         <div className={styles.header}>
-          <h3>
+          <h4>
             ayo<span className={styles.mide}>mide</span>
-          </h3>
+          </h4>
         </div>
       </Link>
 

@@ -25,6 +25,7 @@ const Socials = () => {
             href="https://github.com/ayothekingg"
             target="_blank"
             rel="noreferrer"
+            aria-label="Link to Github"
           >
             <AiFillGithub className={styles.fontSize} />
           </a>
@@ -35,6 +36,7 @@ const Socials = () => {
             href="https://twitter.com/_ayotheking"
             target="_blank"
             rel="noreferrer"
+            aria-label="Link to Twitter"
           >
             <FaTwitter className={styles.fontSize} />
           </a>
@@ -45,6 +47,7 @@ const Socials = () => {
             href="mailto:ayojames444@gmail.com"
             target="_blank"
             rel="noreferrer"
+            aria-label="Link to Email"
           >
             <MdOutlineAlternateEmail className={styles.fontSize} />
           </a>
@@ -55,6 +58,7 @@ const Socials = () => {
             href="https://www.linkedin.com/in/james-amoo-3a655b1bb/"
             target="_blank"
             rel="noreferrer"
+            aria-label="Link to LinkedIn"
           >
             <BsLinkedin className={styles.fontSize} />
           </a>

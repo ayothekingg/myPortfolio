@@ -22,11 +22,11 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.textBox}>
-          <h4 className={styles.textHeader}>SCREENVILLE</h4>
+          <h3 className={styles.textHeader}>SCREENVILLE</h3>
 
-          <h4 className={styles.textBar}>
+          <h3 className={styles.textBar}>
             A site for an overview of the latest movie reviews using an API.
-          </h4>
+          </h3>
           <div className={styles.tools}>
             <span>HTML</span>
             <span>CSS</span>
@@ -69,12 +69,12 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.textBox}>
-          <h4 className={styles.textHeader}>PIGGYVEST CLONE</h4>
+          <h3 className={styles.textHeader}>PIGGYVEST CLONE</h3>
 
-          <h4 className={styles.textBar}>
+          <h3 className={styles.textBar}>
             A pexel perfect clone website of one of my favorite fintech
             companies, Piggyvest.
-          </h4>
+          </h3>
           <div className={styles.tools}>
             <span>HTML</span>
             <span>CSS</span>
@@ -116,12 +116,12 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.textBox}>
-          <h4 className={styles.textHeader}>KICKSVILLE</h4>
+          <h3 className={styles.textHeader}>KICKSVILLE</h3>
 
-          <h4 className={styles.textBar}>
+          <h3 className={styles.textBar}>
             Kicksville is a simple e-commerce site solely for the sales of
             shoes, hence the name "Kicks"ville
-          </h4>
+          </h3>
           <div className={styles.tools}>
             <span>HTML</span>
             <span>CSS</span>
@@ -163,12 +163,12 @@ const Projects = () => {
           </div>
         </div>
         <div className={styles.textBox}>
-          <h4 className={styles.textHeader}>PERSONAL PORTFOLIO</h4>
+          <h3 className={styles.textHeader}>PERSONAL PORTFOLIO</h3>
 
-          <h4 className={styles.textBar}>
+          <h3 className={styles.textBar}>
             Here's a showcase of my portfolio page(the page you are on right
             now). Hope you're having a smooth experience so far!
-          </h4>
+          </h3>
           <div className={styles.tools}>
             <span>REACT</span>
             <span>CSS MODULES</span>
