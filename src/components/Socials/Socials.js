@@ -33,7 +33,7 @@ const Socials = () => {
 
         <li>
           <a
-            href="https://twitter.com/_ayotheking"
+            href="https://twitte.com/_ayotheking"
             target="_blank"
             rel="noreferrer"
             aria-label="Link to Twitter"
